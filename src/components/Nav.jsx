@@ -8,8 +8,8 @@ export default class Nav extends React.Component {
       <div className="top-bar-left">
         <ul className="menu">
           <li className="menu-text">React Timer Application</li>
-          <li><IndexLink to="/" activeClassName="active" activeStyle={{fontWeight:'bold'}}>Timer</IndexLink></li>
-          <li><Link to="/" activeClassName="active" activeStyle={{fontWeight:'bold'}}>Countdown</Link></li>
+          <li><IndexLink to="/" activeClassName="active">Timer</IndexLink></li>
+          <li><Link to="/Countdown" activeClassName="active">Countdown</Link></li>
         </ul>
       </div>
       <div className="top-bar-right">

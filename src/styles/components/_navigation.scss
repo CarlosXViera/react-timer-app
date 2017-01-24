@@ -1,5 +1,14 @@
 .top-bar {
   background-color: $nav-background-color;
+
+  .menu-text {
+    color: $nav-text-color;
+  }
+
+  .active {
+    font-weight: bold;
+    color:white;
+  }
 }
 
 .menu > li {
@@ -9,8 +18,4 @@
 .menu > .menu-text > a {
   display: inline;
   padding: 0;
-}
-
-.menu-text {
-  color: $nav-text-color;
 }
